@@ -1,8 +1,7 @@
 pipeline {
     agent { 
         node {
-            image 'jenkins/agent-alpine-jdk11'
-            label 'docker-agent-alpine'
+            label 'docker-agent-python'
             }
       }
     triggers {
