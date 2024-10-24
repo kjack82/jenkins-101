@@ -1,7 +1,7 @@
 pipeline {
     agent { 
         node {
-            image 'jenkins/agent:alpine-jdk11'
+            image 'jenkins/agent-alpine-jdk11'
             label 'docker-agent-alpine'
             }
       }
